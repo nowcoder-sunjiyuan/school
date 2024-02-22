@@ -1,0 +1,9 @@
+# 不要轻易改动这个文件的内容, 如需改动, 请与无忌商量!
+# 注释掉 `requirements.txt` 中的 tensorflow
+# 先执行 `pip3 install -r requirements.txt`
+# 再执行 `pip3 install -r requirements_tf2.txt`
+tensorflow-cpu==2.4.4
+html2text==2020.1.16
+numba==0.54.1
+sentence_transformers==2.2.2
+text2vec==1.2.1
