@@ -179,3 +179,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
+/tensorflow/core-tutorial/8_structure-data/datasets/__MACOSX/petfinder-mini/._petfinder-mini.csv
+/tensorflow/core-tutorial/8_structure-data/datasets/__MACOSX/petfinder-mini/._README.md
+/tensorflow/core-tutorial/8_structure-data/datasets/petfinder-mini/petfinder-mini.csv
+/tensorflow/core-tutorial/8_structure-data/datasets/petfinder_mini.zip
+/tensorflow/core-tutorial/8_structure-data/datasets/petfinder-mini/README.md
