@@ -13,4 +13,3 @@ color_column = tf.feature_column.categorical_column_with_identity(key='color', n
 # 转换特征列为稀疏向量
 indicator = tf.feature_column.indicator_column(color_column)
 
-print(indicator)
