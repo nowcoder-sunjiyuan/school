@@ -1,0 +1,313 @@
+env: dev
+nacos:
+  namespace: 3f16cc68-f560-42e9-8daf-2ccad2e34b28
+  server-addr: mse-18f07300-nacos-ans.mse.aliyuncs.com:8848
+oss:
+  endpoint: http://oss-cn-hangzhou-internal.aliyuncs.com
+  external_endpoint: http://oss-cn-hangzhou.aliyuncs.com
+  accessKeyID: 021b160a7a30072b1a0f6c760923337b010965173133177d
+  accessKeySecret: RRmDVW8PXAdMtv81Qm10Me7eSHe7H0
+discuss_post_classification:
+  oss_dir: oss://caesar-model/discuss_post_classification
+moment_classification_v2:
+  oss_dir: oss://caesar-model/moment_classification_v2
+nowpick_resume_rec:
+  oss_dir: oss://caesar-model/nowpick_resume_rec
+nowpick_inviteuser:
+  oss_dir: oss://caesar-model/nowpick_inviteuser
+image_ai:
+  oss_dir: oss://caesar-model/image_ai
+face_identify:
+  face_recognize:
+    oss_dir: oss://caesar-model/face_identify/face_recognize
+  face_recognize_v1:
+    oss_dir: oss://caesar-model/face_identify/face_recognize_v1
+  face_recognize_v2:
+    oss_dir: oss://caesar-model/face_identify/face_recognize_v2
+  face_recognize_v3:
+    oss_dir: oss://caesar-model/face_identify/face_recognize_v3
+  face_recognition_onnx:
+    onnx_v3:
+      oss_dir: oss://caesar-model/face_identify/face_recognize_onnx/onnx_v3
+    onnx_v3_simplify:
+      oss_dir: oss://caesar-model/face_identify/face_recognize_onnx/onnx_v3_simplify
+  face_detect:
+    oss_dir: oss://caesar-model/face_identify/face_detect
+  face_pose:
+    oss_dir: oss://caesar-model/face_identify/face_pose
+  face_coor:
+    oss_dir: oss://caesar-model/face_identify/face_coor
+cheat_detector_ocr:
+  oss_dir: oss://caesar-model/cheat_detector_ocr
+sentence_split:
+  oss_dir: oss://caesar-model/sentence_split
+jd_job_classifier:
+  oss_dir: oss://caesar-model/jd_job_classifier
+jd_job_classifier_v2:
+  oss_dir: oss://caesar-model/jd_job_classifier_v2
+cheat_detector_three:
+  oss_dir: oss://caesar-model/cheat_detector_three
+screen_pop_detect:
+  oss_dir: oss://caesar-model/screen_pop_detect
+cheat_detector_classify:
+  oss_dir: oss://caesar-model/cheat_detector_classify
+dssm_user_embedding:
+  oss_dir: oss://caesar-model/dssm_user_embedding
+quality_classification:
+  oss_dir: oss://caesar-model/quality_classification
+resume2vec:
+  oss_dir: oss://caesar-model/resume2vec
+company_recognition:
+  oss_dir: oss://caesar-model/company_recognition
+company_recognition_v2:
+  oss_dir: oss://caesar-model/company_recognition_v2
+jieba_segment:
+  oss_dir: oss://caesar-model/jieba_segment
+lac_segment:
+  oss_dir: oss://caesar-model/lac_segment
+career_embedding:
+  oss_dir: oss://caesar-model/career_embedding
+company_normalization:
+  oss_dir: oss://caesar-model/company_normalization
+ugc_binary_classification:
+  oss_dir: oss://caesar-model/ugc_binary_classification
+text2vec_base_chinese:
+  oss_dir: oss://caesar-model/text2vec_base_chinese
+search_ltr:
+  oss_dir: oss://caesar-model/search_ltr
+search_ltr_v3:
+  oss_dir: oss://caesar-model/search_ltr_v3
+search_ltr_v3_1:
+  oss_dir: oss://caesar-model/search_ltr_v3_1
+search_ltr_v4:
+  oss_dir: oss://caesar-model/search_ltr_v4
+search_ltr_v5:
+  oss_dir: oss://caesar-model/search_ltr_v5
+search_ltr_emb:
+  oss_dir: oss://caesar-model/search_ltr_emb
+search_ltr_v6:
+  oss_dir: oss://caesar-model/search_ltr_v6
+query_emb:
+  oss_dir: oss://caesar-model/query_emb
+job_card:
+  oss_dir: oss://caesar-model/job_card
+job_card_lastn:
+  oss_dir: oss://caesar-model/job_card_lastn
+job_card_all:
+  oss_dir: oss://caesar-model/job_card_all
+job_card_all_v2:
+  oss_dir: oss://caesar-model/job_card_all_v2
+job_card_all_v3:
+  oss_dir: oss://caesar-model/job_card_all_v3
+job_card_all_v4:
+  oss_dir: oss://caesar-model/job_card_all_v4
+job_card_attention:
+  oss_dir: oss://caesar-model/job_card_attention
+job_card_v4_1:
+  oss_dir: oss://caesar-model/job_card_v4_1
+job_card_v5:
+  oss_dir: oss://caesar-model/job_card_v5
+intent_detection:
+  oss_dir: oss://caesar-model/intent_detection
+resume_bert:
+  oss_dir: oss://caesar-model/resume_bert
+invite_user:
+  oss_dir: oss://caesar-model/invite_user
+invite_user_v2:
+  oss_dir: oss://caesar-model/invite_user_v2
+invite_user_v3:
+  oss_dir: oss://caesar-model/invite_user_v3
+invite_user_v4:
+  oss_dir: oss://caesar-model/invite_user_v4
+invite_user_v5:
+  oss_dir: oss://caesar-model/invite_user_v5
+comment_autotag:
+  oss_dir: oss://caesar-model/comment_autotag
+post_career_v2:
+  oss_dir: oss://caesar-model/post_career_v2
+discuss_deepfm_rank:
+  oss_dir: oss://caesar-model/discuss_deepfm_rank
+home_visitor_user:
+  oss_dir: oss://caesar-model/home_rec_visitor
+home_register_user:
+  oss_dir: oss://caesar-model/home_register_user_v3
+home_register_user_exp:
+  oss_dir: oss://caesar-model/home_register_user_v6
+home_rough_rank:
+  oss_dir: oss://caesar-model/home_rough_rank
+home_rough_rank2:
+  oss_dir: oss://caesar-model/home_rough_rank2
+new_industry_rank:
+  oss_dir: oss://caesar-model/new_industry_rank
+discuss_rec:
+  deepfmv2:
+    oss_dir: oss://caesar-model/discuss_deepfm_v2_rank
+  deepfmatt:
+    oss_dir: oss://caesar-model/discuss_deepfm_att_rank
+  deepfmatt_career:
+    oss_dir: oss://caesar-model/discuss_deepfm_att_career_rank
+home_rec:
+  v1:
+    oss_dir: oss://caesar-model/home_rec_v1
+  v2:
+    oss_dir: oss://caesar-model/home_rec_v2
+  v3:
+    oss_dir: oss://caesar-model/home_rec_v3
+  v6:
+    oss_dir: oss://caesar-model/home_rec_v6
+home_rec_mlt:
+  v1:
+    oss_dir: oss://caesar-model/home_rec_mlt_v1
+  v2:
+    oss_dir: oss://caesar-model/home_rec_mlt_v2
+  v3:
+    oss_dir: oss://caesar-model/home_rec_mlt_v3
+  v3_1:
+    oss_dir: oss://caesar-model/home_rec_mlt_v3_1
+  v3_2:
+    oss_dir: oss://caesar-model/home_rec_mlt_v3_2
+  v3_3:
+    oss_dir: oss://caesar-model/home_rec_mlt_v3_3
+dssm_home:
+  discuss:
+    v1:
+      oss_dir: oss://caesar-model/dssm_home_discuss_v1
+redis:
+  read:
+    host: r-bp1q0je62ba9x8hjr3716.redis.rds.aliyuncs.com
+    password: aUP8FM3jFUaYAYz
+    port: 6379
+    max_connections: 20
+  write:
+    host: r-bp1q0je62ba9x8hjr3716.redis.rds.aliyuncs.com
+    password: aUP8FM3jFUaYAYz
+    port: 6379
+    max_connections: 20
+mysql:
+  david:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    port: 3306
+    username: nc_test
+    password: nc_test_2019
+    database: ai_test
+  rec:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    port: 3306
+    username: nc_test
+    password: nc_test_2019
+    database: recommend_test
+nk_influx:
+  read:
+    user: rec_read
+    timeout: 3000000
+    url: http://118.31.125.185:3478
+    token: 0hc18tj86KwczgvZ4klhobSg-bncZvSUvzhthIqZdf7081eNnppnyS8rjgGTHnxz_4ox_dowt8iquGVJc4iPAw==
+  write:
+    user: rec_write
+    timeout: 3000000
+    url: http://172.20.2.2:8086
+    token: gIhAJ5MP6yuUHCknowfhG0hhGwF-f3hkzVtoOWy7rPzS-1v4S7EtrkZ68DDH1uD3tW1XQTu04c3tnYxADm9paQ==
+    org: nowcoder
+    bucket: test_metrics
+nk_mirror:
+  read:
+    host: rm-bp1t25mc6rirlygt8720.mysql.rds.aliyuncs.com
+    user: nc_sparta_read
+    passwd: Nowcoder2014
+    db: wenyibi_online
+    port: 3306
+# 推荐测试环境数据库，用于一些离线测试直接输出到线上推荐数据的需求
+nk_recommend:
+  read:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: recommend_test
+    port: 3306
+  write:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: recommend_test
+    port: 3306
+nk_david:
+  read:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: ai_test
+    port: 3306
+  write:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: ai_test
+    port: 3306
+# 主站测试环境数据库，用于一些离线测试直接输出到线上数据的需求
+nk_wyb:
+  read:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: wenyibi_test
+    port: 3306
+  write:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: wenyibi_test
+    port: 3306
+nk_hr:
+  read:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: hr_test
+    port: 3306
+  write:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: hr_test
+    port: 3306
+nk_boss:
+  read:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: boss_test
+    port: 3306
+  write:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    password: nc_test_2019
+    db: boss_test
+    port: 3306
+nk_question:
+  read:
+    host: rm-bp1x13jv1v26s9694483.mysql.polardb.rds.aliyuncs.com
+    user: nc_test
+    passwd: nc_test_2019
+    db: question_middle_platform_test
+    port: 3306
+mongo_db:
+  read:
+    host: 172.20.2.2:20711
+    user: root
+    password: Nowcoder2022
+    url: mongodb://root:Nowcoder2022@172.20.2.2:20711/aigo?authsource=admin
+    database: aigo
+    collection: ai_post_result
+    authsource: admin
+    replicaSet: mgset-56267149
+rec_max_compute:
+  read:
+    access_id: 021b160a7a3015244d1b2e2b271909262e743849630d2a0b
+    key: OJQ8IzwL7OyOOyuKL2bkYemgKFjkEH
+    endpoint: http://service.cn-hangzhou.maxcompute.aliyun-inc.com/api
+elasticsearch:
+  ut:
+    user: elastic
+    password: qwaszx
+    hosts: 172.20.0.132
+    port: 9200
