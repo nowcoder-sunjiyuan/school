@@ -590,9 +590,9 @@ class SqliteDb(BaseDb):
        salary         REAL
     )
 
-    db.insert('test', ['id', 'text'], [[11, None], [12, 'ttt'], [13, {'a':None, 'b':{'c':[1,None]}}]])
-    db.insert_or_update('test', ['id', 'text'], [[11, 33], [14, 'ccc']])
-    db.update('test', {'text': 'mmmm'}, condition_sql='id=12')
+    db.insert('test, ['id', 'text'], [[11, None], [12, 'ttt'], [13, {'a':None, 'b':{'c':[1,None]}}]])
+    db.insert_or_update('test, ['id', 'text'], [[11, 33], [14, 'ccc']])
+    db.update('test, {'text': 'mmmm'}, condition_sql='id=12')
 
     sql_form = 'select * from test where id>{batch_id} order by id limit {batch_size}'
     list(ai_db.query_on_batch(sql_form, 'id', 3, 2))
