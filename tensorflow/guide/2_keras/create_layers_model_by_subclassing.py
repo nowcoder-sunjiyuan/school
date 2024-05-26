@@ -33,7 +33,6 @@ class MLPBlock(keras.layers.Layer):
         self.linear_2 = Linear(32)
         self.linear_3 = Linear(1)
 
-    @tf.autograph.experimental.do_not_convert
     def call(self, inputs):
         print("MLPBlock call top")
         x = self.linear_1(inputs)
@@ -46,7 +45,9 @@ class MLPBlock(keras.layers.Layer):
 
 mlp = MLPBlock()
 input = tf.keras.Input((64,))
-mlp(input)
+out = mlp(input)
 for weight in mlp.weights:
     print(weight.name, weight.shape)
+model = keras.models.Model(inputs=input, outputs=out)
+print(model.summary())
 
